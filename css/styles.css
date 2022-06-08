@@ -94,10 +94,6 @@ button {
   color: var(--accent-color);
 }
 
-.section {
-  outline: 2px solid greenyellow;
-}
-
 .section-title {
   margin: 0 auto;
 
@@ -195,7 +191,7 @@ button {
 }
 
 /* Team */
-.team {
+.section-team {
   background-color: #f5f4fa;
 }
 

@@ -45,11 +45,27 @@ button {
   font-family: inherit;
 }
 
+.container {
+  width: 1200px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 2px solid greenyellow;
+}
+
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
 /* Logo */
+
+.logo:hover,
+.logo:focus {
+  background-color: red;
+}
 
 .logo-blue {
   color: var(--accent-color);
@@ -78,6 +94,9 @@ button {
 }
 
 .section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -123,12 +142,15 @@ button {
 /* Hero */
 .hero {
   background-color: #2f303a;
+
+  outline: 2px solid greenyellow;
 }
 
 .hero-title {
+  margin: 0 auto 30px;
   color: #ffffff;
 
-  font-style: 400;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -173,6 +195,12 @@ button {
 
 /* Button */
 .button {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin: 0 auto;
+  display: block;
+
   color: var(--contrast-color);
   background-color: var(--accent-color);
   cursor: pointer;
@@ -187,6 +215,8 @@ button {
 }
 
 .button.secondary {
+  padding: 6px 22px;
+
   color: #212121;
   background-color: #f5f4fa;
 
@@ -238,6 +268,11 @@ button {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+}
+
+.adress:hover,
+.adress:focus {
+  color: var(--accent-color);
 }
 
 .ftr-contacts {

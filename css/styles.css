@@ -264,6 +264,15 @@ button {
 /* Footer */
 .footer {
   background-color: #2f303a;
+  padding: 60px 0;
+}
+
+/* .footer-logo {
+  margin-bottom: 20px;
+} Alternative if use div for ftr logo*/
+
+.ftr-address {
+  margin-top: 20px;
 }
 
 .logo-white {

@@ -63,10 +63,10 @@ button {
 
 /* Logo */
 
-.logo:hover,
+/* .logo:hover,
 .logo:focus {
-  background-color: red;
-}
+  background-color: ;
+} - testing*/
 
 .logo-blue {
   color: var(--accent-color);
@@ -244,23 +244,6 @@ button {
   background-color: var(--accent-color);
 }
 
-/* СТИЛІ для Portfolio */
-
-.filter-category {
-  color: var(--primary-text-color);
-
-  font-size: 16px;
-  line-height: 1.88;
-}
-
-.project-name {
-  color: var(--title-text-color);
-
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
 /* Footer */
 .footer {
   background-color: #2f303a;
@@ -282,6 +265,10 @@ button {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+}
+
+.logo-white:hover {
+  color: var(--accent-color);
 }
 
 .adress {
@@ -308,4 +295,22 @@ button {
 .ftr-contacts:hover,
 .ftr-contacts:focus {
   color: var(--accent-color);
+}
+
+/* ----------------------- */
+/* СТИЛІ для Portfolio */
+
+.filter-category {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.project-name {
+  color: var(--title-text-color);
+
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }

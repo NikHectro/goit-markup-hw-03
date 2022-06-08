@@ -189,6 +189,11 @@ button {
   margin: 0 0 94px;
 }
 
+/* Areas */
+.section-area {
+  margin: 0 0 112px;
+}
+
 /* Team */
 .team {
   background-color: #f5f4fa;

@@ -94,6 +94,9 @@ button {
   color: var(--accent-color);
 }
 
+.section {
+  margin: 0 auto 94px;
+}
 .section-title {
   margin: 0 auto;
 
@@ -181,17 +184,8 @@ button {
   line-height: 1.71;
 }
 
-.section-features {
-  margin: 0 0 94px;
-}
-
-/* Areas */
-.section-area {
-  margin: 0 0 112px;
-}
-
 /* Team */
-.section-team {
+.section.team {
   background-color: #f5f4fa;
 }
 

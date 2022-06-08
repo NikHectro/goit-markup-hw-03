@@ -187,6 +187,8 @@ button {
 /* Team */
 .section.team {
   background-color: #f5f4fa;
+  padding: 94px 0;
+  margin-bottom: 0;
 }
 
 .team .name {

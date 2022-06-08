@@ -99,8 +99,7 @@ button {
 }
 
 .section-title {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 auto;
 
   color: var(--title-text-color);
 
@@ -110,7 +109,6 @@ button {
   text-align: center;
   outline: 2px solid greenyellow;
 }
-
 /*  Site nav */
 
 .site-nav .link {
@@ -185,6 +183,10 @@ button {
   margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
+}
+
+.section-features {
+  margin: 0 0 94px;
 }
 
 /* Team */

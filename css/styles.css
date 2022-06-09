@@ -34,7 +34,7 @@ body {
 }
 
 header {
-  padding: 24px 0 25px;
+  /* padding: 24px 0 25px; */
   background-color: #fff;
 
   outline: 2px solid greenyellow;
@@ -47,6 +47,8 @@ a {
 button {
   font-family: inherit;
 }
+
+/* Utility */
 
 .container {
   width: 1200px;
@@ -63,8 +65,16 @@ button {
   list-style: none;
 }
 
-/* Logo */
+.section {
+  padding: 94px 0;
+}
 
+/* Logo */
+.logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 /* .logo:hover,
 .logo:focus {
   background-color: ;
@@ -96,10 +106,6 @@ button {
   color: var(--accent-color);
 }
 
-.section {
-  padding: 94px 0;
-}
-
 .section-title {
   margin: 0 auto;
 
@@ -113,10 +119,37 @@ button {
 }
 
 /*  Site nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.site-nav .item:not(:last-child),
+.head-contacts .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+/* Alternative ^
+.site-nav .item + .item {
+  margin-left: 50px;
+} */
 
 .site-nav .link {
-  color: var(--title-text-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -132,14 +165,22 @@ button {
   color: var(--accent-color);
 }
 
+.head-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
 .contacts-item {
   color: var(--primary-text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
+/* .head-contacts .item:not(:last-child) {
+  margin-right: 50px;
+} merged with .site-nav*/
 
 .contacts-item:hover,
 .contacts-item:focus {

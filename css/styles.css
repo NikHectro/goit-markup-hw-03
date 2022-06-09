@@ -99,6 +99,7 @@ button {
 .section {
   padding: 94px 0;
 }
+
 .section-title {
   margin: 0 auto;
 
@@ -110,6 +111,7 @@ button {
   text-align: center;
   outline: 2px solid greenyellow;
 }
+
 /*  Site nav */
 
 .site-nav .link {
@@ -166,8 +168,9 @@ button {
 }
 
 /* Features */
-.features .section-title {
-  display: none; /* тимчасове рішення*/
+.features .section-title,
+.portfolio .section-title {
+  display: none; /* temporary solution*/
 }
 
 .features .title {

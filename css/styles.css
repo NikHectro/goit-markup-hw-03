@@ -97,7 +97,7 @@ button {
 }
 
 .section {
-  margin: 0 auto 94px;
+  padding: 94px 0;
 }
 .section-title {
   margin: 0 auto;
@@ -149,6 +149,7 @@ button {
   background-color: #2f303a;
   text-align: center;
   outline: 2px solid greenyellow;
+  padding: 0;
 }
 
 .hero-title {
@@ -185,6 +186,12 @@ button {
   margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
+}
+
+/* Areas */
+
+.areas {
+  padding-top: 0;
 }
 
 /* Team */

@@ -130,7 +130,7 @@ button {
   color: var(--accent-color);
 }
 
-.head-contacts a {
+.contacts-item {
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -139,8 +139,8 @@ button {
   letter-spacing: 0.02em;
 }
 
-.head-contacts a:hover,
-.head-contacts a:focus {
+.contacts-item:hover,
+.contacts-item:focus {
   color: var(--accent-color);
 }
 
@@ -183,7 +183,7 @@ button {
   text-transform: uppercase;
 }
 
-.features p {
+.feature-text {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;

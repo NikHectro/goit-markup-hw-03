@@ -36,6 +36,8 @@ body {
 header {
   padding: 24px 0 25px;
   background-color: #fff;
+
+  outline: 2px solid greenyellow;
 }
 
 a {
@@ -166,6 +168,10 @@ button {
 }
 
 /* Features */
+.features .section-title {
+  display: none; /* тимчасове рішення*/
+}
+
 .features .title {
   margin-top: 0;
   margin-bottom: 10px;

@@ -387,6 +387,7 @@ button {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .list-element:nth-child(3n) {

@@ -35,6 +35,7 @@ body {
 header {
   /* padding: 24px 0 25px; */
   background-color: #fff;
+  border-bottom: 1px solid #ececec;
 }
 
 a {
@@ -348,9 +349,9 @@ button {
   padding: 60px 0;
 }
 
-/* .footer-logo {
-  margin-bottom: 20px;
-} Alternative if use div for ftr logo*/
+.footer .ftr-item + .ftr-item {
+  margin-top: 9px;
+}
 
 .ftr-address {
   margin-top: 20px;

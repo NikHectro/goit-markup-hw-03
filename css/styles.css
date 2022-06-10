@@ -235,6 +235,10 @@ button {
   display: flex;
 }
 
+.feature-block + .feature-block {
+  margin-left: 30px;
+}
+
 /* Areas */
 
 .areas {
